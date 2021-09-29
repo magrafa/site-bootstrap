@@ -1,0 +1,72 @@
+.img-carros{
+    object-fit:cover;
+    object-position: 0 70%;
+    height: 400px;
+}
+.img-carros2{
+    object-fit:cover;
+    /* object-position: 0 70%; */
+    height: 400px;
+}
+
+.texto-slide{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px black;
+    
+   
+}
+
+h2.texto-slide{
+    color: rgb(158, 21, 21);
+    text-shadow: 1px 1px grey;
+}
+
+.botao-cor{
+    background-color: rgb(158, 21, 21); 
+    color: white;
+    
+}
+
+.borda-cor{
+    border-color: rgb(158, 21, 21);
+    margin-bottom: 2%;
+}
+
+
+.box-receitas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* object-fit:cover;
+    object-position: 0 70%;
+    height: 40px; */
+    
+}
+
+.img-box-box{
+    object-fit:cover;
+    object-position: 0 50%;
+    height: 120px;
+
+}
+.img-box-box6{
+    object-fit:cover;
+    object-position: 0 70%;
+    height: 120px;
+
+}
+
+.box{
+    padding: 6%;
+    margin: 6%;
+}
+
+@media (max-width: 768px){
+    .box-receitas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
