@@ -1,3 +1,8 @@
+
+.nav-teste{
+    position: fixed;
+}
+
 .img-carros{
     object-fit:cover;
     object-position: 0 70%;
@@ -7,6 +12,14 @@
     object-fit:cover;
     /* object-position: 0 70%; */
     height: 400px;
+}
+
+a.texto-slide{
+    font-family: 'Pacifico', cursive !important;
+    color: rgb(158, 21, 21)!important;
+    text-shadow: none !important;
+    
+   
 }
 
 .texto-slide{
@@ -22,14 +35,16 @@ h2.texto-slide{
 }
 
 .botao-cor{
-    background-color: rgb(158, 21, 21); 
-    color: white;
+    background-color: rgb(158, 21, 21) !important; 
+    color: white !important;
     
 }
 
 .borda-cor{
     border-color: rgb(158, 21, 21);
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 
@@ -37,6 +52,7 @@ h2.texto-slide{
     
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-around; */
     /* align-items: center; */
     /* object-fit:cover;
     object-position: 0 70%;
@@ -48,6 +64,7 @@ h2.texto-slide{
     object-fit:cover;
     object-position: 0 50%;
     height: 120px;
+    
 
 }
 .img-box-box6{
@@ -57,9 +74,19 @@ h2.texto-slide{
 
 }
 
-.box{
-    padding: 6%;
-    margin: 6%;
+/* .box{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+} */
+
+.rodape{
+    display: flex;
+    justify-content: center;
+   
+    
+    text-align: center;
 }
 
 @media (max-width: 768px){
